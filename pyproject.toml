@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "human-abi"
+version = "0.1.0"
+description = ""
+authors = ["Sorawit Suriyakarn <swit@blockpipe.io>"]
+readme = "README.md"
+packages = [{ include = "readable_abi" }]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
