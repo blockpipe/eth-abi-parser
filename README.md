@@ -1,4 +1,4 @@
-# Ethereum ABI Parser Utility
+# Ethereum Human Readable ABI Parser
 
 ## Summary
 
