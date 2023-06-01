@@ -5,7 +5,7 @@
 This package provides a way to parse [Human Readable ABI](https://docs.ethers.org/v5/api/utils/abi/formats/#abi-formats--human-readable-abi) introduced by [ethers.js](https://ethers.org/) to the Python world. It's still pretty much a WIP. The goal is to be fully compatible with [ethers.js](https://ethers.org/) and [ethers-rs](https://github.com/gakonst/ethers-rs).
 
 ```bash
-$ pip install human-abi
+$ pip install eth-abi-parser
 ```
 
 ```py
