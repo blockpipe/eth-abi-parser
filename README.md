@@ -1,4 +1,4 @@
-# Human ABI
+# Ethereum ABI Parser Utility
 
 ## Summary
 
@@ -9,7 +9,7 @@ $ pip install human-abi
 ```
 
 ```py
-from human_abi import HumanReadableParser
+from eth_abi_parser import HumanReadableParser
 
 parser = HumanReadableParser('event TestEvent(uint indexed id, (string, uint16, (uint8, uint8)) value)')
 print(parser.take_event())

@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "human-abi"
-version = "0.1.0"
-description = ""
+name = "eth-abi-parser"
+version = "0.1.2"
+description = "A human-readable ABI parser for Ethereum smart contracts"
 authors = ["Sorawit Suriyakarn <swit@blockpipe.io>"]
 readme = "README.md"
-packages = [{ include = "readable_abi" }]
+packages = [{ include = "eth_abi_parser" }]
+
 
 [tool.poetry.dependencies]
 python = "^3.6"

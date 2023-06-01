@@ -1,5 +1,4 @@
-
-from readable_abi import HumanReadableParser
+from eth_abi_parser import HumanReadableParser
 
 
 def main():
